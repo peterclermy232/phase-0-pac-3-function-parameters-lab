@@ -9,13 +9,12 @@ function introductionWithLanguage(name, language){
     return `Hi, my name is ${name} and I am learning to program in ${language}.`
 }
 
-function introductionWithLanguageOptional(name, language = "Javascript"){
+function introductionWithLanguageOptional(name, language = "JavaScript"){
     return `Hi, my name is ${name} and I am learning to program in ${language}.`
 }
 introductionWithLanguageOptional("Gracie", language);
 
-function introductionWithLanguageOptional(name, language = "JavaScript" ){
-    return `Hi, my name is ${name} and I am learning to program in ${language}.`
+function introductionWithLanguageOptional(name, language = "JavaS" ){
+    return `Hi, my name is ${name} and I am learning to program in ${language}`
 }
 introductionWithLanguageOptional("Gracie", language);
-
